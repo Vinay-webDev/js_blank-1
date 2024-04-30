@@ -1,4 +1,4 @@
-/*
+// * how to shuffle array elements */
 const myArray = ["dude", "pal", "nigga",
                 "mate", "dawg", "homie"];
 
@@ -10,8 +10,8 @@ function shuffleArray (array) {
     return array;
 }
 
-shuffleArray(myArray); */
-/*
+shuffleArray(myArray); 
+
 const myArray = ["dude", "pal", "nigga",
                "mate", "dawg", "homie"];
 
@@ -30,13 +30,14 @@ console.log(shuffledArray(myArray));
 console.log(shuffledArray(myArray));
 console.log(shuffledArray(myArray));
 console.log(shuffledArray(myArray));
-console.log(shuffledArray(myArray)); */
-/* 
+console.log(shuffledArray(myArray)); 
+
+
 const myArray = ["dude", "pal", "nigga",
                 "mate", "dawg", "homie"];
 
 const shuffledArray = [...myArray, ...myArray]
                       .sort(() => Math.random() - 0.5);
 console.log(shuffledArray);
-*/
+
 
